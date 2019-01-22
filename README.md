@@ -68,7 +68,7 @@ time - HH:MM Time of Appointment
 ### Make Appointment
 Appointments are 15 minute  
 **Method:** POST  
-**URI:** http://localhost:5000/appointment/{id}  
+**URI:** http://localhost:5000/appointment  
 **JSON:** {"doctor_id": 1, "location_id": 1,date": "2019-02-01", "time": "11:00"}
 ### Get all Appointments
 **Method:** GET  
