@@ -32,13 +32,13 @@ Expectations/assumptions:
 Below are a few questions which expand the scope of the service. Please pick one and describe your approach.
 
 * What are some real-world constraints to booking appointments that would add complexity to this API and how would they impact the design.  
-**This is a simple design, we can had he ability to book more than one block of time, add the patient that booked it, track the patient that cancel an appoint.  All these would require more tables of information and better checking.**
+**This is a simple design, we can add the ability to book more than one block of time, track the patient that booked it, track the patient that canceled an appoint.  All these would require more tables of information and better data validation. Can discuss furthur.**
 
 * How would our design change if this API was opened up to external users?  
-**If it was accessed by a user we would have the user log in and use an access token.  If access by another system use API_KEYS and may white lite IP addresses that could access the APIs**
+**If it was accessed by a user we would have the user log in and use an access token.  If accessed by another system we could use API_KEYS and/or white list IP addresses that could access the APIs**
 
 * What concerns are there with multi-tenant data management and how could we modify the design to increase data security?
-**We could have a different database for each tenant or add tenent column to the data (This could lead to leaks if not handled correctly)**
+**We could have a different database for each tenant or add tenent column to the data (This could lead to leaks if not handled correctly).**
 
 #### Suggestions ####
 
